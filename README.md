@@ -14,6 +14,8 @@ O sistema deverá receber dois parâmetros via terminal que representarão dois 
 
 ## Resolução do Desafio:
 
+### Nessa resolução de desafio eu abstraí do arquivo principal a classe `ParametrosInvalidosException` para manter o código claro e organizado. Segue abaixo os dois arquivos respectivamente.
+
 Contador.java
 ```java
 package controleFluxo;
