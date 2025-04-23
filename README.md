@@ -14,6 +14,7 @@ O sistema deverá receber dois parâmetros via terminal que representarão dois 
 
 ## Resolução do Desafio:
 
+Contador.java
 ```java
 package controleFluxo;
 
@@ -51,5 +52,16 @@ public class Contador {
 		for (int i = 1; i <= contagem; i ++) {
 			System.out.println("Imprimindo o número " + i);
 		}
+	}
+}
+```
+
+ParametrosInvalidosException.java
+```java
+package controleFluxo;
+
+public class ParametrosInvalidosException extends Exception {
+	public ParametrosInvalidosException(String message) {
+		super(message);
 	}
 }
